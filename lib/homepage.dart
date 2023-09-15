@@ -3,6 +3,8 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,7 +39,7 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 print('');
               },
-              child: const Text('Start Shopping'),
+              child: const Text('Start Shopping', style: TextStyle(color: Colors.white)),
             ),
           ),
           const SizedBox(height: 10),
